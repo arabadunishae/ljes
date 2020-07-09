@@ -1,0 +1,9 @@
+#rightbox{
+    background-image: url(craft.jpeg), url(jump.jpeg);
+    background-repeat: no-repeat;
+    background-position: top right, bottom left;
+    background-size: 400px;
+    color:orangered;
+    font-size: 20px;
+    font-style: italic;
+}

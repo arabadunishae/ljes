@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: darkgrey;
+}
+body{
+    background-color: darkred;
+    height: 900px;
+    width: 1000px;
+    margin: 0 auto;
+}
+#header{
+    background-color: lawngreen;
+    height: 100px;
+    width: 100%;
+}
+#navigation {
+    background-color:rgb(156, 96, 126);
+    height: 40px;
+    width: 100%;
+}
+#container{
+    background-color:white;
+    height: 720px;
+    width: 100%;
+}
+#footer{
+    background-color:red ;
+    height: 40px;
+    width: 100%;
+}
+#leftbox{
+    height: 100%;
+    float: left;
+    width: 25%;
+    background-color: salmon;
+}
+#rightbox{
+    height: 100%;
+    float: right;
+    width: 75%;
+    background-color: lightseagreen
+}
+#ul li{
+   display: inline;
+   padding-left: 10px;
+   padding-right: 10px;
+   line-height: 40px;
+}
+#ul li a {
+    text-decoration: none;
+    color: ivory;
+    
+}
+
+#ul li a:hover{
+    color: lightcoral;
+}
+#ul li a:active{
+    color: lightseagreen;
+}
+#ul li a:visited{
+    color: maroon;
+}#ul2{
+    list-style-type: none;
+    font-style:italic;
+    font-size: small;
+    padding: 15px;
+}
+#ul2 li{
+    padding: 15px;
+    color:darkblue;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: 25px;
+    transform: translate(15%);
+    text-align: center;
+    color: orangered;
+    background-color: lawngreen;
+    font-style:italic ;
+}
+.active-page {
+    background: green;
+    color: white !important;
+}
+p{
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: larger;
+    color: black;
+    margin-top: 30px;
+    padding-top: 40px;   
+}
+
